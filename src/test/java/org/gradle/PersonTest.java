@@ -8,6 +8,5 @@ public class PersonTest {
     public void canConstructAPersonWithAName() {
         Person person = new Person("Larry");
         assertEquals("Larry", person.getName());
-        fail("I'm alive");
     }
 }
